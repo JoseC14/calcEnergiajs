@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&display=swap');
+body{
+    text-align: center;
+    background-color:rgb(20,20,20) ;
+    color: white;
+    font-family:'Inter',sans-serif
+}
+
+
+table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    background: white;
+    border: none;
+    color: black;
+    padding: 0;
+}
+#res{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#res th{
+    background: rgb(31,120,8);
+    border: 1px solid rgb(31,120,8) ;
+    margin-top: 30px;
+    border: none;
+    width: 80px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+
+#res td{
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+}
+#numeroeletro{
+    background-color: rgb(31,120,8);
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+#numeroeletro:hover{
+    background-color:rgb(52, 204, 13);
+    cursor: pointer;
+}
+
+#calcula{
+    background-color: rgb(29,38,120);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+#calcula:hover{
+    background-color: rgb(50, 68, 223);  
+    cursor: pointer;
+}
+
+.close{
+    background-color:rgb(219,35,35);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.close:hover{
+    background-color:rgb(248, 83, 83);
+    cursor: pointer;
+    
+}
+
+input{
+    padding: 10px;
+}
+
+input:focus {
+    border-color: #007bff; /* cor da borda quando o campo está em foco */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* sombra quando o campo está em foco */
+    outline: none; /* remover contorno padrão do campo quando está em foco */
+  }
